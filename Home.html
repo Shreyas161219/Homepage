@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="Home.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav class="Sportslogo">
+      <div class="logo-container">
+        <div class="logo">
+            <img src="https://ftw.usatoday.com/wp-content/uploads/sites/90/2015/08/123.jpg?w=1000&h=600&crop=1" alt="Logo">
+            <div class="logo-text">DBR Sports</div>  
+        </div>
+        </div>
+     <ul class="navbarsections">
+        <li>
+            <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-black focus:outline-none font-medium rounded-lg  text-sm px-4 py-2.5 text-center inline-flex items-center" type="button" >Promotions<svg id="toggle-icon" class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+        </li>
+        <li>
+          <a href="#">Events</a>
+          <ul class="dropdown">
+            <li>
+                <a href="#">Option 1</a>
+            </li>
+            <li><a href="#">Option 2</a></li>
+            <li><a href="#">Option 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Membership</a>
+          <ul class="dropdown">
+            <li><a href="#">Option 1</a></li>
+            <li><a href="#">Option 2</a></li>
+            <li><a href="#">Option 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Promotions</a>
+          <ul class="dropdown">
+            <li><a href="#">Option 1</a></li>
+            <li><a href="#">Option 2</a></li>
+            <li><a href="#">Option 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Store</a>
+          <ul class="dropdown">
+            <li><a href="#">Option 1</a></li>
+            <li><a href="#">Option 2</a></li>
+            <li><a href="#">Option 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="landscape">
+    <img src="landscape1.jpeg" alt="Image 1">
+    <img src="landscape2.jpeg" alt="Image 2">
+  </div>
+  <div class="background-text">
+    <h1>A Premier Sports Club </h1>
+    <h3>
+In the area of Sport and Development, 'sport' is generally understood 
+to include physical activities that go beyond competitive sports. 
+“Incorporated into the definition of 'sport' are all forms of physical
+ activity that contribute to physical fitness, mental well-being and 
+ social interaction.A sports club or sporting club, sometimes an athletics 
+ club or sports society or sports association, is a group of people formed 
+ for the purpose of playing sports.Sports clubs range from organisations 
+ whose members play together, unpaid, and may play other similar clubs on
+  occasion, watched mostly by family and friends, to large commercial 
+  organisations with professional players which have teams that regularly
+   compete against those of other clubs and attract sometimes very large 
+   crowds of paying spectators. Clubs may be dedicated to a single sport 
+   or to several (multi-sport clubs).
+    </h3>
+  </div>
+
+  <div class="split-card-grid">
+    <div class="split-card">
+      <div class="card-front">
+        <img src="football.jpeg" alt="Image 1">
+        <div class="hover-effect">
+          <h2>FootBall</h2>
+        </div>
+      </div>
+    </div>
+    <div class="split-card">
+      <div class="card-front">
+        <img src="Basketball.jpeg" alt="Image 2">
+        <div class="hover-effect">
+          <h2>BasketBall</h2>
+        </div>
+      </div>
+    </div>
+    <div class="split-card">
+      <div class="card-front">
+        <img src="Golf.jpeg" alt="Image 3">
+        <div class="hover-effect">
+          <h2>Golf</h2>
+        </div>
+      </div>
+    </div>
+    <div class="split-card">
+      <div class="card-front">
+        <img src="Swimming.jpeg" alt="Image 4">
+        <div class="hover-effect">
+          <h2>Swimming</h2>
+        </div>
+      </div>
+    </div>
+    <div class="split-card">
+      <div class="card-front">
+        <img src="cricket.jpeg"alt="Image 5">
+        <div class="hover-effect">
+          <h2>Cricket</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+            <!-- Notification Class -->
+            <div class="Notification">
+                <p>Welcome &#9995;</p>
+                <span class="Notification_progress"></span>
+            </div>
+
+            <div class="AskQuestionContainer">
+
+                <button class="AskButton" onclick="toggleSportTimings()">Ask Question</button>
+                <div class="SportTimings" id="sportTimings">
+                  <ul>
+                    <li><strong>Football:</strong> Monday to Friday, 5 PM - 8 PM</li>
+                    <li><strong>Tennis:</strong> Tuesday and Thursday, 6 PM - 9 PM</li>
+                    <li><strong>Basketball:</strong> Monday, Wednesday, and Friday, 7 PM - 9 PM</li>
+                    <!-- Add more sport timings as needed -->
+                  </ul>
+                </div>
+              </div>
+              
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+  <script src="Home.js"></script>
+</body>
+</html>
